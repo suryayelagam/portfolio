@@ -59,8 +59,26 @@
         }
       });
     },
-    { threshold: 0.1, rootMargin: '0px 0px -30px 0px' }
+    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
   );
 
   faders.forEach((el) => observer.observe(el));
+})();
+
+/* ============================================
+   Smooth scroll for quick-nav buttons
+   ============================================ */
+(function () {
+  document.querySelectorAll('.quick-btn').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      const href = btn.getAttribute('href');
+      if (href && href.startsWith('#')) {
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    });
+  });
 })();
