@@ -3,153 +3,221 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surya Yelagam — Pega Lead System Architect</title>
-  <meta name="description" content="Portfolio of Surya Yelagam — Pega Lead System Architect, Kubernetes Engineer, and AWS Cloud Architect.">
+  <title>Surya Kiran Yelagam — Senior Application Developer</title>
+  <meta name="description" content="Portfolio of Surya Kiran Yelagam — Senior Application Developer specializing in Pega BPM and AWS Cloud.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <canvas id="particles"></canvas>
-    <div class="hero-content">
-      <h1 class="hero-name">SURYA YELAGAM</h1>
-      <div class="typewriter-wrapper">
-        <span id="typewriter" class="typewriter-text"></span>
-        <span class="typewriter-cursor">|</span>
-      </div>
-    </div>
-    <div class="scroll-indicator">
-      <span>Scroll</span>
-      <div class="scroll-arrow">&#8595;</div>
-    </div>
-  </section>
+  <div class="page">
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <h2 class="section-title fade-in">About</h2>
-      <p class="about-bio fade-in">
-        I'm a Pega Lead System Architect with deep expertise in designing and delivering
-        enterprise-scale applications. I specialize in cloud-native architectures on AWS,
-        container orchestration with Kubernetes, and building resilient, high-performance
-        systems that solve real business problems. Passionate about clean architecture,
-        automation, and continuous improvement.
-      </p>
-      <div class="tech-stack fade-in">
-        <span class="tech-badge">Pega</span>
-        <span class="tech-badge">Kubernetes</span>
-        <span class="tech-badge">AWS</span>
-        <span class="tech-badge">Docker</span>
-        <span class="tech-badge">Terraform</span>
-        <span class="tech-badge">CI/CD</span>
-        <span class="tech-badge">Java</span>
-        <span class="tech-badge">Python</span>
-        <span class="tech-badge">PostgreSQL</span>
-        <span class="tech-badge">Linux</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2 class="section-title fade-in">Projects</h2>
-      <div class="project-grid">
-
-        <a href="#" class="project-card fade-in" target="_blank" rel="noopener noreferrer">
-          <h3 class="project-title">Cloud Migration Platform</h3>
-          <p class="project-desc">
-            Led the migration of a legacy Pega application to AWS EKS, achieving
-            99.9% uptime and 40% cost reduction through auto-scaling and spot instances.
-          </p>
-          <div class="project-tags">
-            <span>Pega</span>
-            <span>AWS EKS</span>
-            <span>Terraform</span>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <span class="nav-logo">sky_</span>
+          <div class="nav-links">
+            <a href="#about">/about</a>
+            <a href="#experience">/experience</a>
+            <a href="#projects">/projects</a>
+            <a href="#contact">/contact</a>
           </div>
-        </a>
-
-        <a href="#" class="project-card fade-in" target="_blank" rel="noopener noreferrer">
-          <h3 class="project-title">K8s Deployment Automation</h3>
-          <p class="project-desc">
-            Built a custom CI/CD pipeline for automated Kubernetes deployments,
-            reducing release cycles from weeks to hours with zero-downtime rollouts.
-          </p>
-          <div class="project-tags">
-            <span>Kubernetes</span>
-            <span>Helm</span>
-            <span>GitHub Actions</span>
-          </div>
-        </a>
-
-        <a href="#" class="project-card fade-in" target="_blank" rel="noopener noreferrer">
-          <h3 class="project-title">Enterprise Case Management</h3>
-          <p class="project-desc">
-            Architected a Pega-based case management system processing 100K+ daily
-            transactions with intelligent routing and real-time SLA monitoring.
-          </p>
-          <div class="project-tags">
-            <span>Pega</span>
-            <span>Java</span>
-            <span>PostgreSQL</span>
-          </div>
-        </a>
-
-        <a href="#" class="project-card fade-in" target="_blank" rel="noopener noreferrer">
-          <h3 class="project-title">Infrastructure Monitoring Suite</h3>
-          <p class="project-desc">
-            Designed a comprehensive monitoring solution with custom dashboards,
-            alerting, and auto-remediation for cloud-native microservices.
-          </p>
-          <div class="project-tags">
-            <span>AWS CloudWatch</span>
-            <span>Prometheus</span>
-            <span>Grafana</span>
-          </div>
-        </a>
-
+        </nav>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2 class="section-title fade-in">Get in Touch</h2>
-      <p class="contact-text fade-in">Interested in working together? Let's connect.</p>
-      <div class="contact-links fade-in">
-        <a href="mailto:your@email.com" class="contact-link" aria-label="Email">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="4" width="20" height="16" rx="2"/>
-            <path d="M22 4L12 13L2 4"/>
-          </svg>
-          <span>Email</span>
-        </a>
-        <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/>
-            <rect x="2" y="9" width="4" height="12"/>
-            <circle cx="4" cy="4" r="2"/>
-          </svg>
-          <span>LinkedIn</span>
-        </a>
-        <a href="https://github.com/yourusername" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
-          </svg>
-          <span>GitHub</span>
-        </a>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="typed-block fade-in">
+          <p class="typed-meta">> cat intro.txt</p>
+          <h1 class="hero-name">Surya Kiran Yelagam</h1>
+          <p class="hero-role">
+            <span id="typewriter"></span><span class="cursor">_</span>
+          </p>
+          <div class="hero-separator"></div>
+          <p class="hero-bio">
+            Building enterprise-scale case management systems<br>
+            for the federal government with Pega BPM and AWS.<br>
+            9+ years turning complex requirements into reliable software.
+          </p>
+          <div class="hero-links">
+            <a href="mailto:suryakiranyelagam@gmail.com">[email]</a>
+            <a href="https://linkedin.com/in/suryayelagam" target="_blank" rel="noopener noreferrer">[linkedin]</a>
+            <a href="https://github.com/suryayelagam" target="_blank" rel="noopener noreferrer">[github]</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <p>&copy; 2026 Surya Yelagam. All rights reserved.</p>
-  </footer>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <p class="typed-meta fade-in">> cat about.txt</p>
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="section-body fade-in">
+          <p>
+            I'm a Senior Application Developer at International Systems Technologies,
+            working on QMARS — a national case management and review system for the
+            Centers for Medicare & Medicaid Services (CMS). I design and build
+            application modules, integrate Pega BPM with AWS cloud services, and
+            implement DevOps practices that keep things shipping smoothly.
+          </p>
+        </div>
+
+        <p class="typed-meta fade-in">> ls skills/</p>
+        <div class="skills-block fade-in">
+          <div class="skill-row">
+            <span class="skill-label">cloud/</span>
+            <span>EC2, S3, Lambda, RDS, CloudFormation, API Gateway, DynamoDB, IAM</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">devops/</span>
+            <span>Docker, Kubernetes, Jenkins, GitHub Actions, CI/CD, CloudWatch</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">pega/</span>
+            <span>PRPC, Rulesets, Decision Tables, Declarative Rules, Integrations</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">dev/</span>
+            <span>Python, SQL/NoSQL, PostgreSQL, DynamoDB, REST, SOAP APIs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="typed-meta fade-in">> cat experience.txt</p>
+        <h2 class="section-title fade-in">Experience</h2>
+
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <span class="exp-date">2020 — present</span>
+            <span class="exp-role">Senior Application Developer — Pega & AWS</span>
+          </div>
+          <p class="exp-company">IST Inc. · Client: CMS via Bellese Technologies · McKinney, TX</p>
+          <p>Leading Pega module development and AWS cloud migration for QMARS. Building secure REST/SOAP API integrations, container orchestration with Kubernetes, and CI/CD pipelines with Jenkins and GitHub Actions.</p>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <span class="exp-date">2019 — 2020</span>
+            <span class="exp-role">Senior Application Developer — Pega</span>
+          </div>
+          <p class="exp-company">IST Inc. · Client: CMS via Customer Value Partners · Towson, MD</p>
+          <p>Developed Beneficiary Complaint Workflows, EMTALA processing, and reporting dashboards. Built reusable Pega components and strengthened security models with role-based access control.</p>
+        </div>
+
+        <div class="exp-item fade-in">
+          <div class="exp-header">
+            <span class="exp-date">2017 — 2019</span>
+            <span class="exp-role">Application Developer — Pega</span>
+          </div>
+          <p class="exp-company">IST Inc. · Client: CMS via Customer Value Partners · Towson, MD</p>
+          <p>Initial development of QMARS using Pega PRPC. Created class structures, rulesets, core UI components, and built SOAP/REST integrations with eForms parsing.</p>
+        </div>
+
+        <p class="typed-meta fade-in">> cat certifications.txt</p>
+        <h2 class="section-title fade-in">Certifications</h2>
+
+        <div class="cert-list fade-in">
+          <div class="cert-row"><span class="cert-date">2024</span> AWS Certified Solutions Architect</div>
+          <div class="cert-row"><span class="cert-date">2024</span> AWS Certified Developer — Associate</div>
+          <div class="cert-row"><span class="cert-date">2018</span> Pega Certified Senior System Architect</div>
+          <div class="cert-row"><span class="cert-date">2018</span> Pega Certified System Architect</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="typed-meta fade-in">> ls projects/</p>
+        <h2 class="section-title fade-in">Projects</h2>
+
+        <div class="project-item fade-in">
+          <div class="project-header">
+            <span class="project-num">01</span>
+            <h3>QMARS — National Case Management System</h3>
+          </div>
+          <p>National case management and review system for CMS supporting Medicare complaint and appeals processes across the U.S. Implemented beneficiary complaint, appeals, and EMTALA workflows with Pega BPM.</p>
+          <p class="project-tags">tags: Pega BPM, AWS, REST/SOAP, CMS</p>
+        </div>
+
+        <div class="project-item fade-in">
+          <div class="project-header">
+            <span class="project-num">02</span>
+            <h3>AWS Cloud Migration</h3>
+          </div>
+          <p>Migrated QMARS application components to AWS services including EC2, Lambda, RDS, CloudFormation, and S3. Improved scalability, resilience, and deployment velocity.</p>
+          <p class="project-tags">tags: EC2, Lambda, RDS, CloudFormation, S3</p>
+        </div>
+
+        <div class="project-item fade-in">
+          <div class="project-header">
+            <span class="project-num">03</span>
+            <h3>API Integration Platform</h3>
+          </div>
+          <p>Built secure REST and SOAP API integrations between Pega BPM and AWS-hosted microservices, enabling interoperability across CMS systems with robust eForms parsing.</p>
+          <p class="project-tags">tags: REST, SOAP, API Gateway, Pega Integrations</p>
+        </div>
+
+        <div class="project-item fade-in">
+          <div class="project-header">
+            <span class="project-num">04</span>
+            <h3>DevOps & Container Orchestration</h3>
+          </div>
+          <p>Automated deployments and monitoring using CI/CD pipelines with Jenkins and GitHub Actions. Container orchestration using Kubernetes and Docker for Pega components.</p>
+          <p class="project-tags">tags: Kubernetes, Docker, Jenkins, GitHub Actions, CloudWatch</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <p class="typed-meta fade-in">> cat contact.txt</p>
+        <h2 class="section-title fade-in">Get in Touch</h2>
+        <div class="section-body fade-in">
+          <p>I'm always open to discussing new opportunities, interesting projects, or just connecting with fellow developers.</p>
+        </div>
+        <div class="contact-block fade-in">
+          <div class="contact-row">
+            <span class="contact-label">email:</span>
+            <a href="mailto:suryakiranyelagam@gmail.com">suryakiranyelagam@gmail.com</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">linkedin:</span>
+            <a href="https://linkedin.com/in/suryayelagam" target="_blank" rel="noopener noreferrer">linkedin.com/in/suryayelagam</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">github:</span>
+            <a href="https://github.com/suryayelagam" target="_blank" rel="noopener noreferrer">github.com/suryayelagam</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">location:</span>
+            <span>McKinney, Texas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>> echo "© 2026 Surya Kiran Yelagam. All rights reserved."</p>
+        <p class="footer-output">© 2026 Surya Kiran Yelagam. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </div>
 
   <script src="js/main.js"></script>
 </body>
