@@ -6,9 +6,10 @@
   if (!el) return;
 
   const titles = [
-    'Senior Application Developer',
-    'Pega Certified Senior System Architect',
+    'Lead System Architect',
+    'Pega Lead System Architect',
     'AWS Certified Solutions Architect',
+    '6x Certified | Pega & AWS',
   ];
 
   let titleIndex = 0;
